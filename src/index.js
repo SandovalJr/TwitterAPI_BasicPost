@@ -7,6 +7,7 @@ import router from "./routes/twitter.routes";
 const app = express();
 
 app.use(morgan("dev"));
+//uso mis rutas
 app.use(twitter);
 
 
